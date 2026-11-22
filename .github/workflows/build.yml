@@ -2,9 +2,13 @@ name: Integracion Continua EduControl
 
 on:
   push:
-    branches: [ "master", "main" ]
+    branches:
+      - master
+      - main
   pull_request:
-    branches: [ "master", "main" ]
+    branches:
+      - master
+      - main
 
 jobs:
   build:
@@ -14,10 +18,10 @@ jobs:
     - name: Descargar codigo
       uses: actions/checkout@v4
 
-    - name: Configurar Java 25
+    - name: Configurar Java
       uses: actions/setup-java@v4
       with:
-        java-version: '25'
+        java-version: '21'
         distribution: 'temurin'
         cache: maven
 
