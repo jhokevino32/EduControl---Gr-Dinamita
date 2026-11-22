@@ -9,7 +9,6 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	
-	<!-- Aquí ponemos los datos de tu equipo -->
 	<groupId>pe.edu.certus</groupId>
 	<artifactId>EduControl</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
