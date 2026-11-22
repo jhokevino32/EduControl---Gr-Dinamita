@@ -8,29 +8,32 @@
 		<version>3.2.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	
 	<groupId>pe.edu.certus</groupId>
 	<artifactId>EduControl</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>EduControl</name>
 	<description>Proyecto de Control de Asistencia</description>
-	
 	<properties>
 		<java.version>21</java.version>
 	</properties>
-	
 	<dependencies>
+		<!-- Para hacer aplicaciones web -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+		<!-- Para conectar a base de datos (JPA/Hibernate) -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<!-- Para pruebas -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-	
 	<build>
 		<plugins>
 			<plugin>
