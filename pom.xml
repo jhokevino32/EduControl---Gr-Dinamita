@@ -17,6 +17,14 @@
 		<java.version>21</java.version>
 	</properties>
 	<dependencies>
+	
+			<!-- Base de datos en memoria H2 -->
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		
 		<!-- Para hacer aplicaciones web -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
