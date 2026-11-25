@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.springframework.web.bind.annotation.*;
 
-import main.java.pe.edu.certus.educontrol.model.Curso;
-import main.java.pe.edu.certus.educontrol.repository.CursoRepository;
+import pe.edu.certus.educontrol.model.Curso;
+import pe.edu.certus.educontrol.repository.CursoRepository;
 
 @RestController
 @RequestMapping("/api/cursos")
