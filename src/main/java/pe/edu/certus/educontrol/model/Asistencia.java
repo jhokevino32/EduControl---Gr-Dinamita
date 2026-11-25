@@ -1,4 +1,4 @@
-package pe.edu.certus.educontrol.model;
+package pe.edu.certus.educontrol.model; 
 
 import jakarta.persistence.*;
 import java.time.LocalDate;

@@ -1,4 +1,4 @@
-package pe.edu.certus.educontrol.repository;
+package pe.edu.certus.educontrol.repository; 
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
