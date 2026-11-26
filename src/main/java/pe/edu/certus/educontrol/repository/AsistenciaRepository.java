@@ -6,7 +6,7 @@ import pe.edu.certus.educontrol.model.Asistencia;
 
 import java.time.LocalDate;
 import java.util.List;
-
+ 
 @Repository
 public interface AsistenciaRepository extends JpaRepository<Asistencia, Long> {
 
