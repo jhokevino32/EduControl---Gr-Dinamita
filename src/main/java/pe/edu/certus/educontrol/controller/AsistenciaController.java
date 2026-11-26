@@ -14,7 +14,7 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Set;
 
-@RestController  
+@RestController
 @RequestMapping("/api/asistencias")
 public class AsistenciaController {
 
@@ -48,7 +48,8 @@ public class AsistenciaController {
             @PathVariable Long cursoId,
             @RequestParam(required = false) LocalDate fecha) {
         if (fecha != null) {
-            return asistenciaRepository.findByCursoIdAndFecha(cursoId, fecha);
+            
+            return asistenciaRepository.findByCurso_IdAndFecha(cursoId, fecha);
         }
         return asistenciaRepository.findByCursoId(cursoId);
     }

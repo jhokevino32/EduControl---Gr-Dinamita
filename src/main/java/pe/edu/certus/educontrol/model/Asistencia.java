@@ -1,6 +1,6 @@
-package pe.edu.certus.educontrol.model; 
+package pe.edu.certus.educontrol.model;
 
-import jakarta.persistence.*; 
+import jakarta.persistence.*;
 import java.time.LocalDate;
 
 @Entity
@@ -23,7 +23,7 @@ public class Asistencia {
     private LocalDate fecha;
 
     @Column(nullable = false)
-    private String estado; // Ej.: "PRESENTE", "TARDANZA", "FALTA"
+    private String estado; 
 
     public Asistencia() {
     }
